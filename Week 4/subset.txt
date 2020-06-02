@@ -1,0 +1,2 @@
+my_train = torch.utils.data.Subset(mnist_train, np.where(mnist_train.targets <= 1)[0])
+  my_test = torch.utils.data.Subset(mnist_test, np.where(mnist_test.targets <= 1)[0])
